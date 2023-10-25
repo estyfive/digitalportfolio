@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hari Portfolio</title>
+    <style>
+    body {
+        background-image:url(image/5451540.jpg);
+    font-family: unset;
+    margin: 0;
+    padding: 0;
+    
+    animation: backgroundFade 2s ease-in-out infinite alternate;
+}
+header {
+            background-color: #33333367;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+@keyframes backgroundFade {
+    0% {
+        background-color: #00000067;
+    }
+    100% {
+        background-color: #000000AA; /* Change to a darker shade if needed */
+    }
+}
+.header-content h1 {
+    font-size: 2.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-content h1:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+
+@keyframes energy-pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2); /* Scale up at the midpoint */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.header-content h1:hover {
+    animation: energy-pulse 0.5s ; /* Apply the animation on hover */
+}
+
+     
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 50px; /* Adjust top position as needed */
+            left: 50px; /* Adjust left position as needed */
+        }
+        .section-content {
+    background-color: rgba(253, 253, 253, 0.425);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+        
+nav {
+    background-color: rgba(20, 20, 20, 0.527);
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+    text-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15px #00f; /* Neon glow effect */
+    transition: text-shadow 0.3s; /* Add transition for smoother animation */
+}
+
+nav ul li a:hover {
+    text-shadow: none; /* Remove glow effect on hover */
+}
+        .download-button {
+            background-color:cyan;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+            box-shadow: 0 0 5px cyan;
+        }
+
+        .download-button:hover {
+            background-color:;
+            box-shadow: 0 0 5px cyan,
+            0 0 25px cyan, 0 0 50px,
+            0 0 100px cyan,0 0 200px cyan;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="WhatsApp Image 2023-08-06 at 6.25.02 PM.jpeg" alt="Your Profile Picture" class="profile-picture">
+            <h1>G.HARIHARASUDHAN</h1>
+            <p>Graphic Designer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me </h2>
+            <p>
+                I am Hariharasudhan, a graphic designer with over a year of experience in this creative field. I am passionate about creating visually captivating designs that convey messages and tell stories effectively. I specialize in graphic design tools like Adobe Photoshop, Illustrator, and InDesign. My work includes designing logos, brochures, posters, and other visual content. I thrive on the challenges of turning ideas into eye-catching visuals, and I'm committed to delivering high-quality designs that meet the needs of my clients. I'm always eager to learn and stay up-to-date with the latest design trends to enhance my skills and produce outstanding work.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>B.sc computer science-final year</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>advance in photoshop,illustrator,Aftereffect</li>
+                <li>html,css,javascript</li>
+                <li>digital marketing</li>
+                <li>python</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1sp91dVrxW47c0d8bG8jgRkYIjY50Wlsv/view?usp=drive_link">prodect manipulation</a></li>
+                <li><a href="https://drive.google.com/file/d/1ANeu6rm6UKlU8seHBU1waB4M0ixwa2rM/view?usp=drive_link">movie poster design</a></li>
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="https://docs.google.com/document/d/1IvRsQQAhouazY9Kr0QoE-js27wqJefoVqfSGynQ4Q1k/edit?usp=drive_link" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>mr.hari0004@gmail.com</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
